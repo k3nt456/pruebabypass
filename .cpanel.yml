@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home//doopy/public_html/pruebabypass/
-    - /bin/cp -R routes  $DEPLOYPATH
+    - /bin/cp -R /  $DEPLOYPATH
