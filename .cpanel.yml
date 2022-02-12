@@ -3,4 +3,4 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/doopy/public_html/pruebabypass/
     - cd ..
-    - /bin/cp -R pruebabypass/ $DEPLOYPATH
+    - /bin/cp -R pruebabypass/* $DEPLOYPATH
