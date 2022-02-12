@@ -53,3 +53,5 @@ Route::get('/empresa','App\Http\Controllers\EmpresaController@index');
 
 //Añadir empresa
 Route::post('/insertEmpresa', 'App\Http\Controllers\EmpresaController@store');
+
+//Pruebita :3
