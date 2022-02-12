@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOY=/home/doopy/public_html/pruebabypass/
-    - /bin/rsync -av /* $DEPLOY
+    - export DEPLOYPATH=/home//doopy/public_html/pruebabypass/
+    - /bin/cp -R routes  $DEPLOYPATH
