@@ -6,4 +6,4 @@ deployment:
     - rm -rf
     - cd /home/doopy/repositories/
     - /bin/cp -R pruebabypass/* $DEPLOYPATH
-    - /bin/cp -R /vendorbypass/* $DEPLOYPATH
+    - /bin/cp -R vendorbypass/* $DEPLOYPATH
