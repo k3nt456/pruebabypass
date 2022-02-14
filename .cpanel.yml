@@ -4,6 +4,6 @@ deployment:
     - export DEPLOYPATH=/home/doopy/public_html/pruebabypass/
     - cd $DEPLOYPATH
     - rm -rf
-    - cd /home/doopy/repositories/
-    - /bin/rsync -a pruebabypass/* $DEPLOYPATH
-    - /bin/rsync -a vendorbypass/* $DEPLOYPATH
+    - cd
+    - /bin/rsync -a /home/doopy/repositories/pruebabypass/ $DEPLOYPATH
+    - /bin/rsync -a /home/doopy/repositories/vendorbypass/ $DEPLOYPATH
