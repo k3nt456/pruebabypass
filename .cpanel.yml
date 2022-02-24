@@ -6,4 +6,4 @@ deployment:
     - rm -rf
     - cd
     - /bin/rsync -a /home/doopy/repositories/pruebabypass/ $DEPLOYPATH
-    - /bin/rsync -a /home/doopy/repositories/vendorbypass/ $DEPLOYPATH
+    - /bin/rsync -a /home/doopy/repositories/pruebabypass.other/ $DEPLOYPATH
