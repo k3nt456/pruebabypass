@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/doopy/public_html/pruebabypass/
+    - export DEPLOYPATH=/home/doopy/public_html/message/
     - cd $DEPLOYPATH
     - rm -rf
     - cd
